@@ -6,7 +6,7 @@ export const jwtAuth = (req,res,next)=>{
     }
 
   
-    jwt.verify(token,"secretKey",(err,data)=>{
+    jwt.verify(token,process.env.SECRET_KEY,(err,data)=>{
             if(err){
                 res.json(err);
             }

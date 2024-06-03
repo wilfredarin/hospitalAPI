@@ -21,7 +21,7 @@ export const userLogin = async(req,res,next)=>{
     if(resp.success){
         
         const payload = {username:resp.msg.username,id:resp.msg._id}
-        const token = jwt.sign(payload,"secretKey",{'expiresIn':'1h'});
+        const token = jwt.sign(payload,process.env.SECRET_KEY,{'expiresIn':'1h'});
         res.json({token});
     }
     else{
