@@ -1,4 +1,4 @@
-# Hotel API
+# Hospital API
 This is a RESTful API service that provides endpoints for managing doctors, patients, and their medical reports.
 ## Project Setup
 ### Step 1: Clone the Repository
