@@ -80,7 +80,7 @@ You can now test the endpoints using tools like cURL, Postman, or any HTTP clien
     "name":"Jhon K"
 }
 ```
-#### Headears
+#### Headers
 ```
 Key:authorization, Value:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImV4YW1wbGUxIiwiaWQiOiI2NjVkMWMwYTU1NTQ4ZDBiMGIxZGY1Y2UiLCJpYXQiOjE3MTczNzg2NjYsImV4cCI6MTcxNzM4MjI2Nn0.qMLLeEaV2xn5b5cFIDEeWALFxtNzKxusBjYr9PSLe48
 ```
@@ -108,7 +108,7 @@ Key:authorization, Value:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im
     "status":"Negative"
 }
 ```
-#### Headears
+#### Headers
 ```
 Key:authorization, Value:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImV4YW1wbGUxIiwiaWQiOiI2NjVkMWMwYTU1NTQ4ZDBiMGIxZGY1Y2UiLCJpYXQiOjE3MTczNzg2NjYsImV4cCI6MTcxNzM4MjI2Nn0.qMLLeEaV2xn5b5cFIDEeWALFxtNzKxusBjYr9PSLe48
 ```
@@ -127,7 +127,7 @@ Key:authorization, Value:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im
 ### 5. List All Reports of a Patient
 **Endpoint:** `GET /patients/:id/all_reports`
 
-#### Headears
+#### Headers
 ```
 Key:authorization, Value:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImV4YW1wbGUxIiwiaWQiOiI2NjVkMWMwYTU1NTQ4ZDBiMGIxZGY1Y2UiLCJpYXQiOjE3MTczNzg2NjYsImV4cCI6MTcxNzM4MjI2Nn0.qMLLeEaV2xn5b5cFIDEeWALFxtNzKxusBjYr9PSLe48
 ```
@@ -157,7 +157,7 @@ Key:authorization, Value:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im
             "Positive-Admit"]
 ```
 
-#### Headears
+#### Headers
 ```
 Key:authorization, Value:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImV4YW1wbGUxIiwiaWQiOiI2NjVkMWMwYTU1NTQ4ZDBiMGIxZGY1Y2UiLCJpYXQiOjE3MTczNzg2NjYsImV4cCI6MTcxNzM4MjI2Nn0.qMLLeEaV2xn5b5cFIDEeWALFxtNzKxusBjYr9PSLe48
 ```
